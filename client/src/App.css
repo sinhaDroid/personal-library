@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #424242;
+}
+
+footer .row {
+  margin-bottom: 0;
+}
+
+#root {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.collection-item:hover {
+  cursor: pointer;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.p-2 {
+  padding: 20px 0;
+}
+
+nav div ul li a:hover {
+  background-color: #ffc107 !important;
+}
